@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BOOKSTORE
 
-## Available Scripts
+> "BOOKSTOREs" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-In the project directory, you can run:
+- Make simple calculations.
+- Read a random math-related quote.
 
-### `npm start`
+# Live-Demo (If available)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Here is a [link] (https://blase147.github.io/bookstore/) to the live page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ Major languages 
+- HTML 
+- CSS
+- Javascript
+- React
+- Redux
+- Jest
 
-### `npm test`
+## Technologies used 
+- GitHub 
+- Visual Studio Code 
+- GitBash
+- Webpack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+> In order to use the project files, Kindly follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- To clone the project select the desired directory in cmd and run: `git clone https://github.com/blase147/bookstore.git`
+- Install npm dependencies: `npm install`
+- To check the live preview: `npm run start`
+- For StyLint test, run: `npx stylelint "**/*.{css,scss}"`
+- For WebHint test, run: `npx hint .`
+- For EsLint test, run: `npx eslint .`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Have basic level knowledge about HTML/CSS/JS/ES6/React/Redux
+- Have basic level knowledge about linters/Webpack
+- Have basic level knowledge about the working of website
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Author
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👤 **Chukwuma Paul Mosanya**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[GitHub](https://github.com/blase147) | [Twitter](https://twitter.com/DevUmerZia) | [LinkedIn](https://www.linkedin.com/in/chukwuma-mosanya-34645388)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 🤝 Contributing
 
-## Learn More
+- Contributions, issues, and feature requests are welcome!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  Feel free to check the issues page.https://github.com/blase147/bookstore/issues
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
 
-### Code Splitting
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
+- [@microverseinc](https://github.com/microverseinc) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 License
 
-### Making a Progressive Web App
+Copyright 2021, [CHUKWUMA PAUL MOSANYA]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this [BOOKSTORE] and associated documentation files, to deal in the [BOOKSTORE] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [BOOKSTORE], and to permit persons to whom the [BOOKSTORE] is furnished to do so, subject to the following conditions:
 
-### Advanced Configuration
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the [BOOKSTORE].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> THE [BOOKSTORE] IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE [BOOKSTORE] OR THE USE OR OTHER DEALINGS IN THE [BOOKSTORE].
