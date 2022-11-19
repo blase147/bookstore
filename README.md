@@ -2,10 +2,7 @@
 
 # BOOKSTORE
 
-> "BOOKSTOREs" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-
-- Make simple calculations.
-- Read a random math-related quote.
+> "BOOKSTORE" is a website a Single Page App (SPA) that allows users to store books in the digital library:
 
 # Live-Demo (If available)
 
