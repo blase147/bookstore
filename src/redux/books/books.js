@@ -6,11 +6,19 @@ const REMOVE_BOOK = 'REMOVE_BOOK';
 const books = (state = [], action) => {
   switch (action.type) {
     case ADD_BOOK:
-      return action.book;
-
+      return [
+        ...state,
+        {
+          added: true,
+        },
+      ];
     case REMOVE_BOOK:
-      return action.book;
-
+      return [
+        ...state,
+        {
+          added: false,
+        },
+      ];
     default:
       return state;
   }
