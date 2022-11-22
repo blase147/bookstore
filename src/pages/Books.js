@@ -2,7 +2,7 @@ import React from 'react';
 import Book from '../components/Book';
 import CreateBook from '../components/CreateBook';
 
-function Books() {
+const Books = ()=> {
   return (
     <div className="container">
       <div className="books-container">

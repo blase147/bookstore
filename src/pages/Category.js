@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../components/Button';
 
-function Category() {
+const Category = () => {
   return (
     <div>
       <h1>Hello world</h1>

@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Books from './pages/Books';
 import Category from './pages/Category';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />

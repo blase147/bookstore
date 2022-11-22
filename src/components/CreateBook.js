@@ -1,4 +1,4 @@
-function CreateBook() {
+const CreateBook = () => {
   return (
     <form>
       <input type="text" className="book" placeholder="Book" />
