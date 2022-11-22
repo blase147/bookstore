@@ -1,4 +1,4 @@
-import { configureStore } from '@reduxjs/toolkit'
+import { configureStore } from '@reduxjs/toolkit';
 
 const ADD_BOOK = 'ADD_BOOK';
 const REMOVE_BOOK = 'REMOVE_BOOK';
@@ -16,16 +16,14 @@ const books = (state = [], action) => {
   }
 };
 
-export const addBook = () => {
-    return {
+export const addBook = () => ({
   type: ADD_BOOK,
-}};
+});
 
-export const removeBook = () => {
-    return {
+export const removeBook = () => ({
   type: REMOVE_BOOK,
-}};
+});
 
-export const store = Redux.createStore(books);
+export const store = configureStore(books);
 
 export default books;
