@@ -16,8 +16,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
-
 # 📖 [BOOKSTORE] <a name=""></a>
 
 **[BOOKSTORE]** is a website a Single Page App (SPA) that allows users to store books in the digital library
@@ -84,8 +82,8 @@
 ## ⭐️ Show your support <a name="support"></a>
 Give a ⭐️ if you like this project!
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-- I would like to thank [@microverseinc](https://github.com/microverseinc) for the templates and insights
+## 🙏 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I would like to thank [@microverseinc](https://github.com/microverseinc) for the templates and insights 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
