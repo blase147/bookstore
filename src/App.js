@@ -1,3 +1,5 @@
+/* eslint linebreak-style: ["error", "windows"] */
+
 import {
   BrowserRouter as Router,
   Routes,
