@@ -84,7 +84,8 @@
 ## ⭐️ Show your support <a name="support"></a>
 Give a ⭐️ if you like this project!
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I would like to thank [@microverseinc](https://github.com/microverseinc) for the templates and insights <a name="acknowledgements"></a>
 - I would like to thank [@microverseinc](https://github.com/microverseinc) for the templates and insights
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -97,5 +98,7 @@ Give a ⭐️ if you like this project!
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the [BOOKSTORE].
 
 > THE [BOOKSTORE] IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE [BOOKSTORE] OR THE USE OR OTHER DEALINGS IN THE [BOOKSTORE].
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
