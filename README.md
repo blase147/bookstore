@@ -1,13 +1,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+
+
 # 📖 [BOOKSTORE] <a name=""></a>
 
 **[BOOKSTORE]** is a website a Single Page App (SPA) that allows users to store books in the digital library
 
 ## 🛠 Built With <a name="built-with"></a>
-
-## Tech Stack <a name="tech-stack"></a>
-> This project was built with; 
+ > This project was built with; 
 - HTML 
 - CSS
 - Javascript
@@ -15,6 +31,7 @@
 - Redux
 - Jest
 
+## Tech Stack <a name="tech-stack"></a>
 > ### Technologies used 
 - GitHub 
 - Visual Studio Code 
@@ -29,9 +46,9 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Stores Books]**
+- **[Updates book in library]**
+- **[Deletes books from library]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,8 +83,6 @@
 
 ## ⭐️ Show your support <a name="support"></a>
 Give a ⭐️ if you like this project!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 - I would like to thank [@microverseinc](https://github.com/microverseinc) for the templates and insights
