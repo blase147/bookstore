@@ -27,4 +27,4 @@ const booksReducer = (state = initState, action) => {
   }
 };
 
-xport default booksReducer;
+export default booksReducer;
