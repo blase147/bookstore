@@ -1,5 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
-
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { addAPI, fetchAPI, removeAPI } from '../../API/apis';
 
