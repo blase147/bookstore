@@ -1,37 +1,30 @@
-import { configureStore } from '@reduxjs/toolkit';
+const ADD_BOOK = 'bookstore/books/ADD_BOOK';
+const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 
-const ADD_BOOK = 'ADD_BOOK';
-const REMOVE_BOOK = 'REMOVE_BOOK';
+const initState = {
+  books: [],
+};
 
-const books = (state = [], action) => {
+export const addBook = (payload) => ({
+  type: ADD_BOOK,
+  payload,
+});
+
+export const removeBook = (payload) => ({
+  type: REMOVE_BOOK,
+  payload,
+});
+
+const booksReducer = (state = initState, action) => {
   switch (action.type) {
     case ADD_BOOK:
-      return [
-        ...state,
-        {
-          added: true,
-        },
-      ];
+      return [...state, action.payload];
+
     case REMOVE_BOOK:
-      return [
-        ...state,
-        {
-          added: false,
-        },
-      ];
+      return state.filter((book) => book.id !== action.payload);
     default:
       return state;
   }
 };
 
-export const addBook = () => ({
-  type: ADD_BOOK,
-});
-
-export const removeBook = () => ({
-  type: REMOVE_BOOK,
-});
-
-export const store = configureStore(books);
-
-export default books;
+export default booksReducer;

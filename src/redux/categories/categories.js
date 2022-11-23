@@ -1,19 +1,18 @@
-import { configureStore } from '@reduxjs/toolkit';
+const CHECK_STATUS = 'bookstore/categories/CHECK_STATUS';
 
-const categories = (state = [], action) => {
-  switch (action.type) {
-    case 'Under construction':
-      return false;
-
-    default:
-      return state;
-  }
+const initState = {
+  books: [],
 };
 
 export const checkStatus = () => ({
-  type: 'Under construction',
+  type: CHECK_STATUS,
 });
 
-export const store = configureStore(categories);
+const categoriesReducer = (state = initState, action) => {
+  if (action.type === CHECK_STATUS) {
+    return 'Under construction';
+  }
+  return state;
+};
 
-export default categories;
+export default categoriesReducer;
