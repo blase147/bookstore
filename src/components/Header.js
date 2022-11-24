@@ -1,5 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
-
 import { Link } from 'react-router-dom';
 
 function Header() {

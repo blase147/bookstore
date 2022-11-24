@@ -1,5 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
-
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchBooks } from '../redux/books/books';
@@ -10,7 +8,6 @@ function Books() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchBooks());
-    // eslint-disable-next-line
   }, []);
   const books = useSelector((state) => state.handleBook.entities);
   return (
