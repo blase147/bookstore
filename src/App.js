@@ -1,4 +1,3 @@
-/* eslint-disable */ 
 import {
   BrowserRouter as Router,
   Routes,
