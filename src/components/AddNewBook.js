@@ -39,8 +39,8 @@ function AddNewBook() {
     <div className="add-new-book">
       <h2>ADD NEW BOOK</h2>
       <form>
-        <input id="title" onChange={manageInfo} placeholder="Book Title" value={cue.title} />
-        <input id="author" onChange={manageInfo} placeholder="Book Author" value={cue.author} />
+        <input id="title" onChange={manageInfo} placeholder="Book Title" value={cue.title} required />
+        <input id="author" onChange={manageInfo} placeholder="Book Author" value={cue.author} required />
         <button onClick={handleSubmit} type="submit">ADD BOOK</button>
       </form>
     </div>
