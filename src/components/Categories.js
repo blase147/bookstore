@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { checkStatus } from '../redux/categories/categories';
@@ -19,6 +17,6 @@ const Categories = () => {
       <p>{msgPlaceholder}</p>
     </>
   );
-}
+};
 
 export default Categories;

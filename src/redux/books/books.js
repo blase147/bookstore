@@ -47,8 +47,7 @@ const handleBookSlice = createSlice({
           author: item[1][0].author,
         });
       });
-      // eslint-disable-next-line no-param-reassign
-      state.entities = newBookList;
+      initialState.entities = newBookList;
     });
     builder.addCase(addBook.fulfilled, (state, action) => {
       state.entities.push({
@@ -58,8 +57,7 @@ const handleBookSlice = createSlice({
       });
     });
     builder.addCase(removeBook.fulfilled, (state, action) => {
-      // eslint-disable-next-line no-param-reassign
-      state.entities = state.entities.filter((book) => book.id !== action.payload);
+      initialState.entities = state.entities.filter((book) => book.id !== action.payload);
     });
   },
 });
