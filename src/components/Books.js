@@ -4,7 +4,7 @@ import { fetchBooks } from '../redux/books/books';
 import Book from './Book';
 import AddNewBook from './AddNewBook';
 
-function Books() {
+const Books = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchBooks());
@@ -28,6 +28,6 @@ function Books() {
       <AddNewBook />
     </>
   );
-}
+};
 
 export default Books;

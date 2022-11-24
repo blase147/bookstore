@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto+Slab:wght@100;200;300;400&display=swap");
 
 * {
@@ -78,6 +77,22 @@ body {
   color: #0290ff;
 }
 
+.add-new-book button {
+  padding: 15px 25px;
+  width: 24%;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  color: #fff;
+  background-color: #0290ff;
+}
+
+.chapter-progress {
+  border-left: 2px solid #c0c0c0;
+  padding: 0 45px;
+}
+
 .btn {
   display: flex;
   gap: 10px;
@@ -99,6 +114,16 @@ body {
   cursor: pointer;
   border-radius: 4px;
   font-size: 1.8rem;
+  color: #fff;
+  background-color: #0290ff;
+}
+
+.chapter-progress button {
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
   color: #fff;
   background-color: #0290ff;
 }
@@ -131,17 +156,6 @@ body {
 .add-new-book input {
   padding: 5px;
   width: 38%;
-}
-
-.add-new-book button {
-  padding: 15px 25px;
-  width: 24%;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  font-size: 0.7rem;
-  color: #fff;
-  background-color: #0290ff;
 }
 
 .reading-preview {
@@ -187,24 +201,9 @@ body {
   color: #c0c0c0;
 }
 
-.chapter-progress {
-  border-left: 2px solid #c0c0c0;
-  padding: 0 45px;
-}
-
 .chapter-progress h3 {
   margin: 10px 0;
   font-size: 0.9rem;
   font-weight: 500;
   color: #c0c0c0;
-}
-
-.chapter-progress button {
-  cursor: pointer;
-  margin: 10px 0;
-  padding: 10px 25px;
-  border: none;
-  border-radius: 4px;
-  color: #fff;
-  background-color: #0290ff;
 }

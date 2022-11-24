@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/books';
 
-function Book(props) {
+const Book = (props) => {
   const { id, title, author } = props;
   const dispatch = useDispatch();
   const handleSubmit = (e) => {
@@ -41,7 +41,7 @@ function Book(props) {
       </div>
     </div>
   );
-}
+};
 
 Book.propTypes = {
   id: PropTypes.string.isRequired,
