@@ -1,23 +1,20 @@
-/* eslint-disable */ 
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from 'react-router-dom';
-import Books from './Components/Books';
-import Header from './Components/Header';
-import Categories from './Components/Categories';
+import Books from './components/Books';
+import Header from './components/Header';
+import Categories from './components/Categories';
 
-function App() {
-  return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Books />} />
-        <Route path="/categories" element={<Categories />} />
-      </Routes>
-    </Router>
-  );
-}
+const App = () => (
+  <Router>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Books />} />
+      <Route path="/categories" element={<Categories />} />
+    </Routes>
+  </Router>
+);
 
 export default App;
