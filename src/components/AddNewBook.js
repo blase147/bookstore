@@ -1,59 +1,30 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { v4 as uuidv4 } from 'uuid';
+import { nanoid } from 'nanoid';
 import { addBook } from '../redux/books/books';
 
 function AddNewBook() {
-  const [inputs, setInputs] = useState({
-    title: '',
-    author: '',
-  });
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
   const dispatch = useDispatch();
-
-  const handleInputs = (e) => {
-    const input = e.target.value;
-
-    switch (e.target.id) {
-      case 'title':
-        setInputs((inputs) => ({ ...inputs, title: input }));
-        break;
-      case 'author':
-        setInputs((inputs) => ({ ...inputs, author: input }));
-        break;
-      default:
-        break;
-    }
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newBook = {
-      item_id: uuidv4(),
-      title: inputs.title,
-      author: inputs.author,
-      category: 'none',
+    const book = {
+      id: nanoid(),
+      title,
+      author,
     };
-    dispatch(addBook(newBook));
+    setTitle('');
+    setAuthor('');
+    dispatch(addBook(book));
   };
+
   return (
-    <div id="addbook-form">
-      <h2>ADD NEW BOOK</h2>
-      <form>
-        <input
-          id="title"
-          onChange={handleInputs}
-          placeholder="Book Title"
-          value={inputs.title}
-        />
-        <input
-          id="author"
-          onChange={handleInputs}
-          placeholder="Book Author"
-          value={inputs.author}
-        />
-        <button onClick={handleSubmit} type="submit">ADD BOOK</button>
-      </form>
-    </div>
+    <form className="book-form" onSubmit={handleSubmit}>
+      <input className="data-input" type="text" placeholder="Book Title" value={title} onChange={(e) => setTitle(e.target.value)} />
+      <input className="data-input" type="text" placeholder="Book Author" value={author} onChange={(e) => setAuthor(e.target.value)} />
+      <button type="submit">ADD BOOK</button>
+    </form>
   );
 }
 
