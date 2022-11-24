@@ -3,26 +3,26 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [🛠 Built With](#built-with)
+  - [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
+  - [🤝 Contributing](#contributing)
+  - [⭐️ Show your support](#support)
+  - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 
 
-# 📖 [BOOKSTORE] <a name=""></a>
+# 📖 BOOKSTORE <a name="about-project"></a>
 
-**[BOOKSTORE]** is a website a Single Page App (SPA) that allows users to store books in the digital library
+**BOOKSTORE** is a website a Single Page App (SPA) that allows users to store books in the digital library
 
-## 🛠 Built With <a name="built-with"></a>
+# 🛠 Built With <a name="built-with"></a>
  > This project was built with; 
 - HTML 
 - CSS
@@ -31,21 +31,20 @@
 - Redux
 - Jest
 
-## Tech Stack <a name="tech-stack"></a>
+# Tech Stack <a name="tech-stack"></a>
 > ### Technologies used 
 - GitHub 
 - Visual Studio Code 
 - GitBash
 - Webpack
-
-<details>
-  <summary>Client</summary>
+<details> 
+<summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
-### Key Features <a name="key-features"></a>
+# Key Features <a name="key-features"></a>
 - **[Stores Books]**
 - **[Updates book in library]**
 - **[Deletes books from library]**
@@ -53,12 +52,12 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Live-Demo
-> Here is a [link] (https://blase147.github.io/bookstore/) to the live page.
+> Here is a link (https://blase147.github.io/bookstore/) to the live page.
 
 # 💻 Getting Started <a name="getting-started"></a>
 > In order to use the project files, Kindly follow these steps:
 
-### Steps
+## Steps
 - To clone the project select the desired directory in cmd and run: `git clone https://github.com/blase147/bookstore.git`
 - Install npm dependencies: `npm install`
 - To check the live preview: `npm run start`
@@ -66,12 +65,12 @@
 - For WebHint test, run: `npx hint .`
 - For EsLint test, run: `npx eslint .`
 
-### Prerequisites
+## Prerequisites
 - Have basic level knowledge about HTML/CSS/JS/ES6/React/Redux
 - Have basic level knowledge about linters/Webpack
 - Have basic level knowledge about the working of website
 
-## Author
+# Author
 👤 **Chukwuma Paul Mosanya**
 
 [GitHub](https://github.com/blase147) | [Twitter](https://twitter.com/DevUmerZia) | [LinkedIn](https://www.linkedin.com/in/chukwuma-mosanya-34645388)
@@ -84,12 +83,12 @@
 ## ⭐️ Show your support <a name="support"></a>
 Give a ⭐️ if you like this project!
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-- I would like to thank [@microverseinc](https://github.com/microverseinc) for the templates and insights
+## 🙏 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I would like to thank [@microverseinc](https://github.com/microverseinc) for the templates and insights 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License <a name="license"></a>
+### 📝 License <a name="license"></a>
 > Copyright 2021, [CHUKWUMA PAUL MOSANYA]
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of this [BOOKSTORE] and associated documentation files, to deal in the [BOOKSTORE] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [BOOKSTORE], and to permit persons to whom the [BOOKSTORE] is furnished to do so, subject to the following conditions:

@@ -1,22 +1,31 @@
+import React from 'react';
 import PropTypes from 'prop-types';
-import Button from './Button';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/books';
 
-function Book(props) {
-  // props destructured
-  const { title, author } = props;
+const Book = (props) => {
+  const dispatch = useDispatch();
+
+  const { title, author, id } = props;
+
+  const handleClick = (id) => {
+    dispatch(removeBook(id));
+  };
+
   return (
-    <div className="book-container">
-      <div>
-        <h2>{title}</h2>
-        <p>{author}</p>
-        <Button class="remove-btn" value="Remove" />
-      </div>
+    <div className="book-shelf">
+      <ul className="book-list">
+        <li>{title}</li>
+        <li>{author}</li>
+      </ul>
+      <button className="remove-btn" onClick={() => handleClick(id)} type="button">Remove</button>
     </div>
   );
-}
-// props validation should be propTypes
-Book.propTypes = {
-  title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
 };
+
+Book.propTypes = {
+  title: PropTypes.string,
+  author: PropTypes.string,
+}.isRequired;
+
 export default Book;
